@@ -19,8 +19,24 @@ p num_array[1]
 p num_array[2]
 p num_array[3]
 
-p "Q7&Q8"
+p "Q7"
 Me = {name:'Takahiro' , bloodtype:'A' , birthdate:"1996/1/23"}
 puts Me[:name]
 puts Me[:bloodtype]
 puts Me[:birthdate]
+
+p "Q8"
+def print_rubyplus (name)
+    puts name + "ruby"
+end
+
+print_rubyplus ("Takahiro")
+print_rubyplus("love")
+
+p "Q9"
+def plus_one(number)
+    p number +1
+end
+
+plus_one(3)
+plus_one(99)
